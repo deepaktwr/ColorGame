@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- using for mdpi 160 dp base from XHDPI -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="d_0">0dp</dimen>
+
+
+    <dimen name="d_300">150dp</dimen>
+    <dimen name="d_80">40dp</dimen>
+    <dimen name="d_40">20dp</dimen>
+    <dimen name="d_30">15dp</dimen>
+    <dimen name="d_20">10dp</dimen>
+    <dimen name="d_10">5dp</dimen>
+    <dimen name="d_5">2.5dp</dimen>
+</resources>

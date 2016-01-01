@@ -1,0 +1,10 @@
+<resources>
+    <!-- base for XHDPI  320 dpi-->
+    <dimen name="d_300">300dp</dimen>
+    <dimen name="d_80">80dp</dimen>
+    <dimen name="d_40">40dp</dimen>
+    <dimen name="d_30">30dp</dimen>
+    <dimen name="d_20">20dp</dimen>
+    <dimen name="d_10">10dp</dimen>
+    <dimen name="d_5">5dp</dimen>
+</resources>

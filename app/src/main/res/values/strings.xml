@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ColorGame</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Instructions</string>
+    <string name="color_frag_tag">ColorFragment</string>
+    <string name="game_rule" formatted="false">After every 1 second one of the square will change its colour to grey.It will remain grey for 1 second.After 1 second it will come back to its original colour and one square from rest of the 3 will change its colour.\n\nGame can get over in two conditions:\n1. You taps on a tile which is not grey.\n2. You does not tap on tile when it was grey.\n</string>
+    <string name="game_level_text" formatted="false">In this level the square color chaining interval will be %s second.You will get %s points for every correct taps.\nYou will get an extra bonus point of %s if you tap on the grey square only in %s milliseconds or bonus point of %s if you tap only in %s milliseconds.\nFor every %s clicks on any square will give you %s bonus points.\n</string>
+</resources>

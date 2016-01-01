@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ColorMain">
+
+    <fragment
+        android:layout_width="@dimen/d_300"
+        android:layout_height="@dimen/d_300"
+        android:name="proj.me.colorgame.fragments.ColorFrag"
+        android:id="@+id/color_frag"
+        android:layout_centerInParent="true"
+        tools:layout="@layout/frag_color" />
+    <TextView
+        android:id="@+id/benefit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/d_30"
+        android:layout_marginBottom="@dimen/d_5"
+        android:text="+10"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_above="@id/color_frag"
+        android:textColor="@color/grey"
+        />
+    <RelativeLayout
+        android:id="@+id/play_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/color_frag"
+        android:layout_alignBottom="@id/color_frag"
+        android:layout_alignRight="@id/color_frag"
+        android:layout_alignTop="@id/color_frag"
+        android:background="@color/bg"
+        android:visibility="invisible"
+        android:contentDescription="@null">
+        <View
+            android:id="@+id/center_point"
+            android:layout_width="@dimen/d_20"
+            android:layout_height="@dimen/d_0"
+            android:layout_centerInParent="true">
+        </View>
+        <View
+            android:id="@+id/center_white"
+            android:layout_width="@dimen/d_10"
+            android:layout_height="@dimen/d_10"
+            android:layout_centerInParent="true"
+            android:background="@drawable/oval_bg">
+        </View>
+        <View
+            android:id="@+id/play_icon"
+            android:layout_width="@dimen/d_40"
+            android:layout_height="@dimen/d_80"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@id/center_point"
+            android:background="@drawable/play_icon"/>
+        <View
+            android:id="@+id/play_ring"
+            android:layout_width="@dimen/d_80"
+            android:layout_height="@dimen/d_80"
+            android:layout_centerInParent="true"
+            android:background="@drawable/play_bg"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_alignParentBottom="true"
+        android:text="SCORE"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/d_10"
+        android:textColor="@color/grey"
+        />
+
+
+
+</RelativeLayout>

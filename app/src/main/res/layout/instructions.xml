@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/game_rule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/d_20"
+        android:layout_marginLeft="@dimen/d_10"
+        android:layout_marginRight="@dimen/d_10"
+        android:text="@string/game_rule"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/grey"/>
+
+    <TextView
+        android:id="@+id/game_levels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/d_20"
+        android:layout_marginLeft="@dimen/d_10"
+        android:layout_marginRight="@dimen/d_10"
+        android:text="Levels"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/grey"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/d_20">
+        <RadioButton
+            android:id="@+id/radio_easy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Easy"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+        <RadioButton
+            android:id="@+id/radio_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+        <RadioButton
+            android:id="@+id/radio_hard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hard"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/game_level_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/d_20"
+        android:layout_marginLeft="@dimen/d_10"
+        android:layout_marginRight="@dimen/d_10"
+        android:text="@string/game_level_text"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/grey"/>
+</LinearLayout>
+</ScrollView>

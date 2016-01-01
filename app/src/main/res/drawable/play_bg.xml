@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:top="@dimen/d_5"
+        android:right="@dimen/d_5"
+        android:bottom="@dimen/d_5"
+        android:left="@dimen/d_5">
+        <shape
+            android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+            <!--<gradient android:startColor="#ffffff" android:endColor="@color/accent"
+                android:angle="270"/>-->
+        </shape>
+    </item>
+    <item>
+        <shape
+            android:shape="oval">
+            <stroke android:width="@dimen/d_5"
+                android:color="@color/bg_ring"/>
+        </shape>
+    </item>
+</layer-list>

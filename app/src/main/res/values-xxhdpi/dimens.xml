@@ -1,0 +1,10 @@
+<resources>
+    <!-- base from XHDPI for XXHDPI  480 dpi-->
+    <dimen name="d_300">450dp</dimen>
+    <dimen name="d_80">120dp</dimen>
+    <dimen name="d_40">60dp</dimen>
+    <dimen name="d_30">45dp</dimen>
+    <dimen name="d_20">30dp</dimen>
+    <dimen name="d_10">15dp</dimen>
+    <dimen name="d_5">7.5dp</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <!-- base from XHDPI for HDPI 240 dpi-->
+    <dimen name="d_300">225dp</dimen>
+    <dimen name="d_80">60dp</dimen>
+    <dimen name="d_40">30dp</dimen>
+    <dimen name="d_30">22.5dp</dimen>
+    <dimen name="d_20">15dp</dimen>
+    <dimen name="d_10">7.5dp</dimen>
+    <dimen name="d_5">3.75dp</dimen>
+</resources>
